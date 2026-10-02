@@ -10,14 +10,14 @@ read -p "Enter ip:" IP
 case $choice in
     1) 	
     	echo ""
-    	echo "youre running > nmap -sV -sC -v --min-rate 1000 -p- -A $IP"
+    	echo "Running cmd  > nmap -sV -sC -v --min-rate 1000 -p- -A $IP"
     	echo ""
     	echo ""
         nmap -sV -sC -v --min-rate 1000 -p- -A $IP 
         ;;
     2)
         echo ""
-        echo "youre running > nmap -sV -sC -v --min-rate 1000 -p- -A -Pn $IP"
+        echo "Running cmd > nmap -sV -sC -v --min-rate 1000 -p- -A -Pn $IP"
         echo ""
         echo ""
         nmap -sV -sC -v --min-rate 1000 -p- -A $IP
