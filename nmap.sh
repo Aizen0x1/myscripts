@@ -20,7 +20,7 @@ case $choice in
         echo "Running cmd > nmap -sV -sC -v --min-rate 1000 -p- -A -Pn $IP"
         echo ""
         echo ""
-        nmap -sV -sC -v --min-rate 1000 -p- -A $IP
+        nmap -sV -sC -v --min-rate 1000 -p- -A -Pn $IP
         ;;
     *)
         echo "Invalid choice"
